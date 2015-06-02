@@ -1,0 +1,25 @@
+{
+  "name": "fake-node",
+  "version": "1.0.0",
+  "description": "Pulls weather for Raleigh, NC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wholroyd/fake-node"
+  },
+  "author": "William Holroyd",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/wholroyd/fake-node/issues"
+  },
+  "homepage": "https://github.com/wholroyd/fake-node",
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1",
+    "unirest": "^0.4.2"
+  }
+}
